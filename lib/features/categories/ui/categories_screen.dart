@@ -39,7 +39,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                 decoration: const InputDecoration(labelText: 'Category Name'),
               ),
               DropdownButtonFormField<String>(
-                value: type,
+                initialValue: type,
                 items: ['Income', 'Expense']
                     .map((e) => DropdownMenuItem(value: e, child: Text(e)))
                     .toList(),

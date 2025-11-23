@@ -45,7 +45,7 @@ class _AddEditTransactionScreenState extends State<AddEditTransactionScreen> {
           child: Column(
             children: [
               DropdownButtonFormField<String>(
-                value: _type,
+                initialValue: _type,
                 items: ['Income', 'Expense', 'Transfer']
                     .map((e) => DropdownMenuItem(value: e, child: Text(e)))
                     .toList(),

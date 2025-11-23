@@ -45,7 +45,7 @@ class _AccountsScreenState extends State<AccountsScreen> {
                 keyboardType: TextInputType.number,
               ),
               DropdownButtonFormField<String>(
-                value: type,
+                initialValue: type,
                 items: ['Cash', 'Bank', 'Card']
                     .map((e) => DropdownMenuItem(value: e, child: Text(e)))
                     .toList(),
