@@ -1,4 +1,4 @@
-import 'package:appwrite_flutter_starter_kit/data/models/status.dart';
+import 'package:gulfon_expense_manager/data/models/status.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

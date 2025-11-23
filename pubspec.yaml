@@ -1,5 +1,5 @@
-name: appwrite_flutter_starter_kit
-description: "Appwrite StarterKit in Flutter"
+name: gulfon_expense_manager
+description: "Expense Manager Application"
 publish_to: 'none'
 
 version: 1.0.0
@@ -16,6 +16,12 @@ dependencies:
   url_launcher: ^6.3.1
   window_manager: ^0.4.3
   cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  sizer: ^3.0.0
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  fl_chart: ^0.69.0
 
 dependency_overrides:
   flutter_web_auth_2: 4.1.0
